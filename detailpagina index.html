@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Detailpagina (desktop + mobile)</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+body {
+margin: 0;
+padding: 0;
+background-color: #f0f0f0;
+}
+.container-fluid {
+height: 100vh;
+display: flex;
+flex-direction: column;
+}
+.main-content {
+background-color: black;
+position: relative;
+flex-grow: 1;
+}
+.back-arrow {
+position: absolute;
+top: 10px;
+left: 10px;
+color: white;
+font-size: 24px;
+}
+.search-bar {
+background-color: white;
+padding: 10px;
+}
+.search-bar input {
+width: calc(100% - 40px);
+border: none;
+outline: none;
+padding: 10px;
+border-radius: 4px;
+}
+.search-bar .fa-search {
+position: absolute;
+right: 20px;
+top: 50%;
+transform: translateY(-50%);
+color: gray;
+}
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="container-fluid">
+<div class="main-content">
+<i class="fa fa-arrow-left back-arrow" aria-hidden="true"></i>
+</div>
+<div class="search-bar d-flex align-items-center position-relative">
+<input type="text" class="form-control" placeholder="www.example.com">
+<i class="fa fa-search" aria-hidden="true"></i>
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mobile Layout Mockup</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<style>
+body {
+margin: 0;
+padding: 0;
+background-color: #ffffff;
+}
+.container-fluid {
+padding: 0;
+}
+.header {
+display: flex;
+align-items: center;
+padding: 10px;
+background-color: #ffffff;
+border-bottom: 1px solid #ccc;
+}
+.header .fa-arrow-left {
+margin-right: 10px;
+}
+.header h1 {
+margin: 0;
+font-size: 1.25rem;
+}
+.content {
+padding: 20px;
+}
+#my-picture {
+background-color: #d3d3d3;
+height: 150px;
+margin-bottom: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#main-text {
+background-color: #ffffff;
+height: 200px;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+padding-bottom: 10px;
+border: 1px solid #ccc;
+}
+.footer {
+text-align: center;
+padding: 10px;
+border-top: 1px solid #ccc;
+}
+.footer input {
+width: calc(100% - 20px);
+border: 1px solid #000;
+border-radius: 4px;
+padding: 5px;
+}
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="container-fluid">
+<div class="header">
+<i class="fa fa-arrow-left"></i>
+<h1>About me</h1>
+</div>
+<div class="content">
+<div id="my-picture">My Picture</div>
+<div id="main-text">Text</div>
+</div>
+<div class="footer">
+<input type="text" placeholder="www.Example.com" readonly>
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

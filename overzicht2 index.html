@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects Page</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<style>
+body {
+margin: 0;
+padding: 0;
+background-color: #f0f0f0; /* light background for better contrast */
+}
+.search-bar {
+border-radius: 50px;
+margin: 20px;
+padding: 10px;
+}
+.main-content {
+background-color: black;
+padding: 20px;
+min-height: calc(100vh - 160px); /* calculated height excluding search bar and footer */
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.project-box {
+background-color: white;
+border-radius: 10px;
+margin: 10px;
+padding: 20px;
+width: 100px;
+height: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 1.5em;
+color: black;
+}
+.footer {
+background-color: lightgray;
+padding: 10px 0;
+text-align: center;
+}
+.footer input {
+width: 100%;
+border: 1px solid #ccc;
+border-radius: 4px;
+padding: 5px;
+text-align: center;
+}
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="container">
+<div class="row">
+<div class="col-12">
+<input type="text" class="form-control search-bar" placeholder="Search">
+</div>
+</div>
+<div class="row">
+<div class="col-12 text-center">
+<h1>Projects</h1>
+</div>
+</div>
+<div class="row main-content">
+<div class="col-6">
+<div class="project-box">1</div>
+</div>
+<div class="col-6">
+<div class="project-box">2</div>
+</div>
+<div class="col-6">
+<div class="project-box">3</div>
+</div>
+<div class="col-6">
+<div class="project-box">4</div>
+</div>
+<div class="col-6">
+<div class="project-box">5</div>
+</div>
+<div class="col-6">
+<div class="project-box">6</div>
+</div>
+</div>
+<div class="row">
+<div class="col-12 footer">
+<input type="text" value="www.Example.com" readonly>
+</div>
+</div>
+</div>
